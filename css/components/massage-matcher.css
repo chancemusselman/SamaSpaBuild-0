@@ -1,0 +1,38 @@
+#massage-matcher-section{
+    /* background-image: url("/media/matcher-banner.jpg"); */
+    /* background-size: 1000px 400px; */
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* background-position-y: 30px; */
+}
+.answer{
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 50px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border:2px solid rgba(0, 0, 0, 0.9);
+    color: black;
+    font-weight: 700;
+}
+
+.tracker{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    height: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tracker:nth-child(1){
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}

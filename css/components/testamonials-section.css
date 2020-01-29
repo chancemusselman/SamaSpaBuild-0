@@ -1,0 +1,10 @@
+.testamonials-section{
+    background-image: url("https://t3.ftcdn.net/jpg/02/86/53/66/240_F_286536674_RPP1TQ5h7yLd36KZp5NiJygZs0qFzePG.jpg");
+    /* background-size: 1000px 400px; */
+    /* background-size: contain; */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-position-y: -30px;
+
+    height: 600px;
+}

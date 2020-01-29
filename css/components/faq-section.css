@@ -1,0 +1,24 @@
+.faq-section{
+    max-width: 1199px;
+    margin: 20px auto;
+}
+.accordion {
+    background-color: #cccccc;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: black;
+    color: white;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }

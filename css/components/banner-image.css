@@ -1,0 +1,42 @@
+.banner-image {
+    background-image: url("/media/background-image-v3-1920.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 800px;
+    max-width: 1200px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+.quick-link {
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 220px;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 65px 0 0 65px;
+
+    margin-top: 25px;
+    transition: .7s;
+}
+
+.quick-link:hover,
+.quick-link:focus {
+    width: 240px;
+    color: white;
+    background-color: black;
+    border-radius: 0px;
+    transition: .7s;
+}
+
+.welcome {
+    background-color: white;
+    color: black;
+}

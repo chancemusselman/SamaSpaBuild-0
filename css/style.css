@@ -1,0 +1,277 @@
+@import './components/nav.css';
+@import './components/banner-image.css';
+@import './components/how-it-works.css';
+@import './components/massage-matcher.css';
+@import './components/all-services-section.css';
+@import './components/testamonials-section.css';
+@import './components/faq-section.css';
+
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+footer > a{
+    padding: 5px;
+}
+footer > a:hover{
+    background-color: #cccccc;
+}
+
+*{
+    /* outline: 1px solid lime; */
+}
+.bgw {
+    background-color: white;
+    color: black;
+}
+
+.bgb {
+    background-color: black;
+    color: white;
+}
+
+.font-4 {
+    font-family: montserrat, sans-serif;
+}
+
+.font-2 {
+    font-family: jaf-domus-titling-web, sans-serif;
+}
+
+.font-3 {
+    font-family: natalya-alternate-two, sans-serif;
+}
+
+.font-1 {
+    font-family: montserrat, sans-serif;
+}
+
+.fw1 {
+    font-weight: 100;
+}
+
+.fw2 {
+    font-weight: 200;
+}
+
+.fw3 {
+    font-weight: 300;
+}
+
+.fw4 {
+    font-weight: 400;
+}
+
+.fw5 {
+    font-weight: 500;
+}
+
+.fw6 {
+    font-weight: 600;
+}
+
+.fw7 {
+    font-weight: 700;
+}
+
+.fw8 {
+    font-weight: 800;
+}
+
+.fw9 {
+    font-weight: 700;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.mxa {
+    margin: 0 auto;
+}
+
+.ta-right {
+    text-align: right;
+}
+
+.ta-left {
+    text-align: left;
+}
+
+.ta-center {
+    text-align: center;
+}
+ /* dipslay classes */
+ .f {
+    display: flex;
+}
+
+.i-f {
+    display: inline-flex;
+}
+
+/* dipslay class */
+/* ---------------------------------------------------------------------------------------------------- */
+/* flex-flow classes */
+.ff-rw {
+    flex-flow: row wrap;
+}
+
+.ff-rnw {
+    flex-flow: row nowrap;
+}
+
+.ff-rrw {
+    flex-flow: row-reverse row wrap;
+}
+
+.ff-rrnw {
+    flex-flow: row-reverse row nowrap;
+}
+
+.ff-cw {
+    flex-flow: column wrap;
+}
+
+.ff-cnw {
+    flex-flow: column nowrap;
+}
+
+.ff-crw {
+    flex-flow: column-reverse wrap;
+}
+
+.ff-crnw {
+    flex-flow: column-reverse nowrap;
+}
+
+/* flex-flow classes */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* justify-content classes */
+.jc-fs {
+    justify-content: flex-start;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.jc-fe {
+    justify-content: flex-end;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+/* justify-content classes */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* align-items classes */
+.ai-fs {
+    align-items: flex-start;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.ai-fe {
+    align-items: flex-end;
+}
+
+.ai-b {
+    align-items: baseline;
+}
+
+.ai-s {
+    align-items: stretch;
+}
+
+/* align-items classes */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* align-items classes */
+.as-fs {
+    align-self: flex-start;
+}
+
+.as-c {
+    align-self: center;
+}
+
+.as-fe {
+    align-self: flex-end;
+}
+
+.as-basline {
+    align-self: baseline;
+}
+
+.as-s {
+    align-items: stretch;
+}
+
+/* align-items classes */
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* align-content classes */
+.ac-fs {
+    align-content: flex-start;
+}
+
+.ac-c {
+    align-content: center;
+}
+
+.ac-fe {
+    align-content: flex-end;
+}
+
+.ac-sa {
+    align-content: space-around;
+}
+
+.ac-sb {
+    align-content: space-between;
+}
+
+.ac-se {
+    align-content: space-evenly;
+}
+
+.ac-s {
+    align-content: stretch;
+}
+
+/* flex-grow classes */
+.fg1 {
+    flex-grow: 1;
+}
+
+.fg2 {
+    flex-grow: 2;
+}
+
+.fg3 {
+    flex-grow: 3;
+}
+
+.fg100 {
+    flex-grow: 100;
+}

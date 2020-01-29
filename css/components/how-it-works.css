@@ -1,0 +1,11 @@
+.how-it-works {
+    margin-top: 20px;
+}
+
+.hiw-step {
+    max-width: 300px;
+}
+
+.hiw-step>h3 {
+    border-bottom: 1px solid black;
+}
